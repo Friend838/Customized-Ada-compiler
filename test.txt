@@ -1,0 +1,49 @@
+program test
+declare
+  a: constant := 10.5;
+  b: constant := 5;
+  c: float := 8.5;
+  d: float := 9.5;
+  e: integer := 10;
+  i: integer := 0;
+
+procedure floatAdd (a: float; b: float) return float
+    return a + b;
+end floatAdd;
+
+begin
+    while (i <= b) loop
+    begin
+        if(a > b and c > b) then
+        declare
+            f: float;
+    
+        begin
+            println("a and c is greater than b");
+            if(d < e) then
+            begin
+                f := d + e;
+                println(f);
+            end;
+            end if;
+        end;
+        end if;
+        i := i + 1;
+    end;
+    end loop;
+
+    for (i in 1 .. 10) loop
+    declare 
+        g: boolean := true;
+        
+    begin
+        if (i % 2 = 1) then
+            g := false;
+        else
+            g := true;
+        end if;
+        println g;
+    end;
+    end loop;
+end;
+end test
